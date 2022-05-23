@@ -1,7 +1,6 @@
 .app {
   background-color: rgb(189, 45, 45);
-  height: 100vh;
+  min-height: 100vh;
   color: white;
-  /* padding-top: 180px;
-  padding-bottom: 130px; */
+  padding-bottom: 200px;
 }

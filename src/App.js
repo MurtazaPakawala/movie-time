@@ -1,10 +1,13 @@
 import "./App.css";
+import SimpleBottomNavigation from "./component/BottomNav";
 import Header from "./component/Header/Header";
 function App() {
   return (
-    <div className="app">
+    <>
       <Header />
-    </div>
+      <div className="app"></div>
+      <SimpleBottomNavigation />
+    </>
   );
 }
 
