@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import SingleContent from "../component/SingleContent/SingleContent";
+import "./Trending.css";
 const Trending = () => {
   const [content, setContent] = useState([]);
   const fetchTrending = async () => {
@@ -16,7 +17,7 @@ const Trending = () => {
   return (
     <div>
       <h1>Trending</h1>
-      <div className="Trending">
+      <div className="trending">
         {content &&
           content.map((c) => (
             <SingleContent

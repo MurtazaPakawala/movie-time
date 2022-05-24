@@ -12,6 +12,7 @@ function SingleContent({ poster, title, date, media_type, vote_average, des }) {
       />
       <div className="text-container">
         <b>{title}</b>
+        <span className="date">Date : {date}</span>
         <p>{des}</p>
       </div>
     </div>
