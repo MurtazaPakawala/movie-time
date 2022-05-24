@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Header />
       <div className="app">
-        <Container>
+        <Container className="container-card">
           <Routes>
             <Route exact path="/" element={<Trending />} />
             <Route path="/search" element={<Search />} />
