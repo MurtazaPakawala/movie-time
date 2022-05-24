@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { Container } from "@mui/system";
 import "./App.css";
@@ -22,7 +17,7 @@ function App() {
       <div className="app">
         <Container>
           <Routes>
-            <Route path="/trending" element={<Trending />} />
+            <Route exact path="/" element={<Trending />} />
             <Route path="/search" element={<Search />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/tvseries" element={<TvSeries />} />
